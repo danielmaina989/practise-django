@@ -6,7 +6,7 @@ def home(request):
     return render (request, 'pages/index.html',{'name':'Dantey'})
 
 def add(request):
-    val1 = int(request.GET["num1"])
-    val2 = int(request.GET["num2"])
+    val1 = int(request.POST["num1"])
+    val2 = int(request.POST["num2"])
     results = val1 +  val2
     return render(request, "results.html", {'results':results})
