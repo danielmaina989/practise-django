@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'travellor.apps.TravellorConfig',
+    'accounts.apps.AccountsConfig',
 ]
 
 MIDDLEWARE = [
